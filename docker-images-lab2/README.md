@@ -6,7 +6,7 @@ Docker containers are built from Docker images. Images are the building blocks, 
 
 Docker images are built as layers, like one on top of another. Each layer is built as part of a container. 
 
-![Layers](https://cdn.pixabay.com/photo/2014/04/03/10/24/birthday-cake-310370_960_720.png)
+<img src="https://cdn.pixabay.com/photo/2014/04/03/10/24/birthday-cake-310370_960_720.png" alt="layers" width="200"/>
 
 ### To list the images
 

@@ -17,4 +17,4 @@ Where did this hello-world App came from? <br/>
 How docker knows where to pull this App from ?<br/>
 What are images?
 
-[Lab 2 - Let us understand what is a Docker image.](docker-images-lab2/README.md)
+[Lab 2 - Let us understand what is a Docker image.](../docker-images-lab2/README.md)

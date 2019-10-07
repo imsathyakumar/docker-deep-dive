@@ -1,6 +1,6 @@
 # Docker Workshop
 
-This workshop aims at learning and understanding Docker commands, its options, Docker image management, container management, docker-compose, volume and more.
+This workshop aims at learning and understanding Docker commands, its options, Docker image management, writing Dockerfile, container management, docker-compose, volume and more.
 
 ## Requirements
 

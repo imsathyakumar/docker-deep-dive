@@ -91,4 +91,4 @@ Docker images consist of multiple layers. Dangling images are layers that have n
 
 So far we have pulled down the publicly available image and worked on it. What if we need to customize it for our needs. We can achieve this with `Dockerfile.`
 
-[Lab 3 - Dockerfile](dockerfile-lab3/README.md)
+[Lab 3 - Dockerfile](../dockerfile-lab3/README.md)

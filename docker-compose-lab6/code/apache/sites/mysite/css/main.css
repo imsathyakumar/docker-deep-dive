@@ -1,0 +1,450 @@
+body{
+    font-size:16px;
+    line-height:1.3;
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+button{
+    font-size:16px;
+    line-height:1.3;
+    font-family: sans-serif;
+}
+p{
+    margin:0;
+}
+
+div#container{
+    width:100%;
+}
+
+#container-content{
+    background-color: #FFF;
+    margin-top:20px;
+}
+#main-content h1 {
+    margin-bottom: 0;
+}
+
+#main-content h3 {
+    margin:0;
+}
+.col{
+    width:100%;
+}
+
+.row{
+    display:block;
+    margin:0;
+}
+
+table{
+    width: 100%;
+    padding:0;
+    border-spacing: 0;
+    text-align: center;
+}
+th{
+    background-color:#2E4053;
+    color:white;
+    padding:10px;
+}
+td{
+    padding:10px;
+    border-bottom:1px solid #EAF2F8;
+}
+tr:nth-child(odd) td{
+    background-color:#D6EAF8;
+}
+tr:nth-child(even) td{
+    background-color:#85C1E9;
+}
+.btn{
+    color:#FFF;
+    display:block;
+    padding:10px;
+    background-color:#3387FF;
+    text-decoration: none;
+    text-align: center;
+    border:1px solid #fff;
+}
+.btn-delete{
+    background-color:#999;
+    color:#000;
+}
+.btn-right{
+    float:right;
+    right:0;
+    margin:10px 0 10px 0;
+}
+
+.btn:hover{
+    background-color:#2471A3;
+    cursor: hand;
+}
+ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+li{
+    padding:0;
+}
+.col{
+    width:100%;
+    float:left;
+}
+
+.row{
+    display:block;
+    margin:0;
+}
+
+input, textarea{
+    width:50%;
+    padding:10px;
+    border:1px solid #85C1E9;
+}
+
+.alert-box{
+    padding: 10px;
+    margin-bottom:10px;
+}
+.error, .alert-box{
+    color:#FFF;
+}
+
+.alert-error{
+    border:1px solid red;
+    background-color:lightcoral;
+    margin-top:10px;
+}
+
+.alert-success{
+    border:1px solid green;
+    background-color:lightgreen;
+    color:#000;
+}
+
+textarea{
+    height:200px;
+}
+.input-row{
+    margin-bottom:10px;
+}
+label{
+    display:block;
+    width:50%;
+}
+
+fieldset{
+    margin-top:10px;
+    border:1px solid #85C1E9;
+}
+
+
+
+/* Marketing */
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    overflow:none;
+}
+#overlay-content{
+    width:240px;
+    overflow-y: scroll;
+    padding:10px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #262626;
+    border:1px solid #F2F2F2;
+    border-radius: 20px;
+    color:#FFF;
+    font-family: "Verdana, Geneva", sans-serif;
+    font-size:1em;
+    line-height:1.2em;
+}
+.hide-mobile{
+    display: none;
+}
+#overlay-content a{
+    text-decoration: none;
+}
+#overlay-content p{
+    margin-top:10px;
+}
+#overlay-content .copy{
+    float:left;
+    width:100%;
+    margin-right:20px;
+    margin-bottom:10px;
+}
+#overlay-content .what-you-will-learn ul{
+    list-style: square;
+    margin-left:10px;
+    padding-left:10px;
+}
+#overlay-content .copy p:first-child{
+    padding-top:0;
+    margin-top:0;
+}
+#overlay-content .img-thumb{
+    float:left;
+    width:100%;
+}
+#overlay-content .img-thumb p{
+    text-align: center;
+}
+#overlay-content .img-thumb strong,
+#marketing-header strong{
+    color:#ffff00;
+}
+#overlay-content .close{
+    float:right;
+    color:#FFF;
+}
+#overlay-content h1{
+    margin:0;
+    font-size:1.1em;
+    line-height:1em;
+}
+#overlay-content h2{
+    font-size:1.1em;
+    line-height:1em;
+}
+#overlay-content .iframe-container{
+    margin-top:10px;
+    margin-bottom: 3px;
+    text-align:center;
+}
+#overlay-content .iframe-container iframe{
+    width:240px;
+    height:135px;
+}
+
+#overlay-content .btn-row{
+    margin-top:20px;
+    width:100%;
+    text-align:center;
+
+}
+#overlay-content .btn,
+#marketing-header .btn{
+    padding:10px;
+    background-color:#47bd30;
+    color:#FFF;
+    border-radius: 6px;
+    font-size:1em;
+    margin-left:auto;
+    margin-right:auto;
+}
+#overlay-content .btn:hover,
+#marketing-header .btn:hover{
+    background-color:#66dd66;
+    color:#000;
+}
+#overlay-content .close{
+    padding:5px;
+    background-color:#6E6E6E;
+    color:#CCC;
+    border-radius: 6px;
+}
+#overlay-content .what-you-will-learn{
+    float:left;
+}
+#overlay-content .close:hover{
+    background-color:#CCC;
+    color:#6E6E6E;
+}
+#marketing-header{
+    width:100%;
+    background-color: #262626;
+    border:1px solid #F2F2F2;
+
+    color:#EAF2F8;
+    float:left;
+    border-bottom:2px solid #CCC;
+    margin-bottom:50px;
+    font-size:1em;
+}
+#marketing-header .marketing-content{
+    padding:10px;
+}
+#marketing-header .copy h2{
+    margin:0;
+    font-size:1.1em;
+}
+#marketing-header .copy{
+    float:left;
+    margin-bottom:10px;
+}
+#marketing-header .btn-row{
+    width:100%;
+    text-align: center;
+    float:left;
+    margin-bottom:10px;
+}
+#marketing-header .btn-row p{
+    margin-top:10px;
+}
+
+#marketing-header .btn{
+    padding:10px;
+    font-size: 1em;
+    width:200px;
+    text-align: center;
+}
+#marketing-header a{
+    color:#FFF;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (min-width:480px) {
+    body{
+        font-size:18px;
+    }
+    .row{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .col{
+        flex-basis:100%;
+        margin:0 20px 0 20px;
+    }
+
+    input{
+        width:auto;
+    }
+
+    .col{
+        flex: 1;
+    }
+    ._25{
+        flex: 4;
+    }
+    ._55{
+        flex: 8;
+    }
+
+    .col{
+        margin:0;
+    }
+    div#container{
+        margin-left:auto;
+        margin-right:auto;
+        width:1084px;
+    }
+    #overlay-content {
+        width: 440px;
+    }
+    #overlay-content .iframe-container iframe{
+        width:332px;
+        height:180px;
+    }
+    #main-content{
+        margin-left:20px;
+    }
+    #main-content h1{
+        margin-top:0;
+    }
+
+}
+
+@media only screen and (min-width:480px) and (max-width: 767px){
+    div#container{
+        float:left;
+    }
+}
+@media (min-width: 767px) {
+
+    .hide-mobile{
+        display:block;
+    }
+    #overlay-content {
+        width: 700px;
+    }
+
+    #overlay-content .iframe-container{
+        width:420px;
+        float:right;
+    }
+    .what-you-will-learn{
+        width:275px;
+    }
+    #overlay-content .iframe-container iframe{
+        width:420px;
+        height:230px;
+    }
+    #marketing-header .btn-row{
+        width:300px;
+        float:right;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .hide-mobile{
+        display:block;
+    }
+    #overlay-content {
+        width: 700px;
+    }
+
+    #overlay-content .iframe-container{
+        width:420px;
+        float:right;
+    }
+    .what-you-will-learn{
+        width:275px;
+    }
+    #overlay-content .iframe-container iframe{
+        width:420px;
+        height:230px;
+    }
+    #marketing-header .btn-row{
+        width:300px;
+        float:right;
+    }
+    div#container{
+        float:left;
+    }
+}
+@media (min-width: 1024px) {
+    .hide-mobile{
+        display:block;
+    }
+    #overlay-content {
+        width: 900px;
+    }
+
+    #overlay-content .iframe-container{
+        width:560px;
+        float:right;
+    }
+    .what-you-will-learn{
+        width:300px;
+    }
+    #overlay-content .iframe-container iframe{
+        width:560px;
+        height:310px;
+    }
+    #marketing-header .btn-row{
+        width:350px;
+        float:right;
+    }
+
+}

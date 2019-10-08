@@ -7,7 +7,7 @@ Again recreate a new container from the same image and see if you are able to fi
 
 What if your application needs to persist the data outside of the container? You got two options.[tmpfs is just a storage option]
 
-<image src="https://docs.docker.com/storage/images/types-of-mounts-volume.png" alt="volumes">
+<image src="https://docs.docker.com/storage/images/types-of-mounts-volume.png" alt="volumes"/>
 
 * **Volumes** are stored in a part of the host filesystem which is managed by Docker (`/var/lib/docker/volumes/` on Linux). Non-Docker processes should not modify this part of the filesystem. Volumes are the best way to persist data in Docker.
 
